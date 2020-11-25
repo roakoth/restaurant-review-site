@@ -1,0 +1,113 @@
+[
+  {
+    "restaurantName": "Spaghetti Heart",
+    "address": "Kabar Central",
+    "lat": -0.0980491,
+    "lng": 34.762268,
+    "averageRating": 4.6,
+    "totalRatings": 970,
+    "reviews": [
+     {
+       "name": "Alice Kamau",
+      "rating": 4,
+      "comment": "Great! These people are welcoming."
+    },
+    {
+      "name": "Rose Kamande",
+      "rating": 5,
+      "comment": "My favorite restaurant!"
+    }
+    ],
+    "restaurantId": "ChIJqTQzIehv5kcRaF3hD1SzX5A",
+    "photos": [
+     {
+      "streetViewURL":
+        "https://maps.googleapis.com/maps/api/streetview?size=600x200&location=-0.0980491,34.762268&key=API_KEY"
+    }
+    ],
+    "customImg": "",
+    "source": "local"
+  },
+  {
+    "restaurantName": "The Chopping Blossom",
+    "address": "Kamswa, North",
+    "lat": -0.099619,
+    "lng": 34.79212,
+    "averageRating": 4.0,
+    "totalRatings": 3,
+    "reviews": [
+      {
+        "name": "Salsa Kamau",
+        "rating": 5,
+        "comment": "Located in a safe cool environment"
+      },
+      {
+        "name": "Betty Kyallo",
+        "rating": 4,
+        "comment": "Decent place. The food was cooked to perfection. I was happy to see how clean everything was."
+      }
+    ],
+    "restaurantId": "ChIJg6dDuRJKTRARU1zj8i_aJLk",
+    "photos": [{
+     "streetViewURL":
+        "https://maps.googleapis.com/maps/api/streetview?size=600x200&location=-0.099619,34.79212&key=API_KEY"
+    }
+      ],
+    "customImg": "",
+    "source": "local"
+  },
+  {
+    "restaurantName": "The Salty Street",
+    "address": "Tura",
+    "lat": -0.075406,
+    "lng": 34.799896,
+    "averageRating": 3.7,
+    "totalRatings": 3,
+    "reviews": [
+      {
+        "name": "Maurice Kipsang",
+        "rating": 4,
+        "comment": "Good food and wonderful ambience"
+      },
+      {
+        "name": "Susan Wakonyo",
+        "rating": 3,
+        "comment": "Local food prepared well"
+      }
+      
+    ],
+    "restaurantId": "ChIJq5NK2RFKTRAR6Cn9pVk8XbY",
+    "photos": [
+      {
+         "streetviewURL":
+        "https://maps.googleapis.com/maps/api/streetview?size=600x200&location=-0.075406,34.799896&key=API_KEY"
+      }
+    ],
+    "customImg": "",
+    "source": "local"
+  },
+  {
+    "restaurantName": "Simmer Down",
+    "address": "Kanyakwar",
+    "lat": -0.062554,
+    "lng": 34.802225,
+    "averageRating": 3.5,
+    "totalRatings": 0,
+    "reviews": [
+      {
+        "name": "Oneitah Yvonne",
+        "rating": 3,
+        "comment": "Hospitality is at its best"
+      }
+    ],
+    "restaurantId": "ChIJYSnRg3BKTRARHzMIi7wMssU",
+    "photos": [
+      {
+      "streetviewURL":
+        "https://maps.googleapis.com/maps/api/streetview?size=600x200&location=-0.062554,34.802225&key=API_KEY" 
+      }
+    ],
+    "customImg": "",
+    "source": "local"
+  }
+]

@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ccccff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  padding: 2 10px;
+  text-align: center;
+}
+
+.map-container {
+  width: 70%;
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-loading-msg {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/*
+** Lists: Restaurants & Review Comments
+*/
+#filterSection {
+  margin: 4px;
+  padding: 4px;
+}
+
+.lists {
+  width: 30%;
+  height: 100%;
+  border-left: 1px solid #555;
+  overflow: auto;
+  text-align: center;
+}
+
+.lists ul,
+.modal-lists {
+  padding: 5px;
+  margin: 0;
+}
+
+.restaurant-details {
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+}
+
+.lists li {
+  list-style-type: none;
+  border: 1px solid #aaa7a7;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #191970;
+  color: #fff;
+}
+
+/* The modal background */
+.modalDialog {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  overflow: auto;
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  max-width: 800px;
+  position: relative;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  border-radius: 3px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: "Damion", cursive;
+  font-size: 100%;
+  margin-bottom: 10px;
+  margin: 0 10px;
+}
+#content .form-group,
+#newRestaurant .form-group {
+  margin-bottom: 20px;
+}
+#content label,
+#newRestaurant label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#content input,
+#newRestaurant input {
+  width: 90%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#ratingStars,
+#restaurantRatings {
+  width: 150px;
+  height: 30px;
+}
