@@ -174,7 +174,9 @@ const APP = {
                   }
                   break;
                 case "threeRating":
-                  renderNewRestaurantList(newRestaurantData);
+                  if (newRestaurantData.averageRating >= 3.0) {
+                    renderNewRestaurantList(newRestaurantData);
+                  }
                   break;
                 case "fourRating":
                   if (newRestaurantData.averageRating >= 4.0) {
